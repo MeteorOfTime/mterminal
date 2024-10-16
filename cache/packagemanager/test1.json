@@ -1,1 +1,8 @@
-404: Not Found
+{
+  "pkg_name": "test",
+  "pkg_version": "0.1",
+  "pkg_author": "MeteorOfTime",
+  "pkg_source": "http://mirrors.cloud.tencent.com/nexus/repository/maven-public/org/glavo/hmcl/hmcl-dev/3.5.9.255/hmcl-dev-3.5.9.255.exe",
+  "local_file_name": "hmcl.exe",
+  "required_platform": ["Windows", ["AMD64"]]
+}
