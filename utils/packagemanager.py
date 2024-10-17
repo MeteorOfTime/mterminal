@@ -64,6 +64,8 @@ def get_source(environment, package_source, package_name):
         f.write(response.content)
         f.close()
     return True
+def uninstall_pkg():
+    pass
 if __name__ == "__main__":
     get_source(environment=r"C:\Users\MeteorOfTime\Documents\GitHub\mterminal", package_source=r"https://raw.githubusercontent.com/MeteorOfTime/mterminal/main/cache/packagemanager/test2.json", package_name="test2")
     update_source(environment=r"C:\Users\MeteorOfTime\Documents\GitHub\mterminal", package_source=r"https://raw.githubusercontent.com/MeteorOfTime/mterminal/main/cache/packagemanager/test2.json", package_name="test2")
